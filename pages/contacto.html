@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--
+Template Name: Chevesic
+Author: <a href="https://www.os-templates.com/">OS Templates</a>
+Author URI: https://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: https://www.os-templates.com/template-terms
+-->
+<html lang="es">
+    <!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+    <head>
+        <title>Contacto</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+
+
+        <style>
+
+
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+            }
+
+            .row1 {
+                height: 13vh;
+                position: fixed;
+                z-index: 1;
+            }
+
+            #logo {
+                text-align: center;
+                color: white;
+                position: relative;
+                bottom: 50px;
+
+            }
+
+            #mainav {
+                position: relative;
+                bottom: 93px;
+            }
+
+            .principal {
+                background-attachment: fixed;
+                background: center center;
+                height: 80vh;
+                background-size: cover;
+            }
+
+            .block {
+                text-align: center;
+                padding: 20px;
+            }
+
+            .one_third {
+                text-align: center !Important;
+            }
+
+
+            textarea {
+                margin: auto;
+                width: 70vw;
+                max-width: 80%;
+            }
+
+            input, input[type="text"], input[type="number"] , input[type="email"]{
+                margin: auto !Important;
+                text-align: center;
+                margin-bottom: 10px !Important;
+            }
+
+            .row4{
+                background: no-repeat ;
+                background-size: cover;
+                height: 70vh;
+            }
+            
+            .row5 {
+                text-align: center;
+            }
+
+            #mail_telf {
+                text-align: center;
+            }
+
+
+        </style>
+
+    </head>
+    <body id="top">
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- Top Background Image Wrapper -->
+        <div class="principal" style="background-image:url('../images/contacto/samuel_telefono.jpg');"> 
+            <!-- ################################################################################################ -->
+            <!-- ################################################################################################ -->
+            <!-- ################################################################################################ -->
+            <div class="wrapper row1">
+                <header id="header" class="hoc clear"> 
+                    <!-- ################################################################################################ -->
+                    <div id="logo">
+                        <h1>Contacto</h1>
+                    </div>
+
+                    <!-- ################################################################################################ -->
+                </header>
+                <nav id="mainav" class="hoc clear"> 
+                    <!-- ################################################################################################ -->
+                    <ul class="clear">
+                        <li><a href="../index.html">Portada</a></li>
+                        <li class="active"><a class="drop" href="">Páginas</a>
+                            <ul>
+                                <li><a href="../index.html">Portada</a></li>
+                                <li><a href="biografia.html">Biografía</a></li>
+                                <li><a href="filmografia.html">Filmografía</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- ################################################################################################ -->
+                </nav>
+            </div>
+            <!-- ############################################################################################### -->
+            <!-- ################################################################################################ -->
+            <!-- ################################################################################################ -->
+
+            <!-- ################################################################################################ -->
+        </div>
+        <!-- End Top Background Image Wrapper -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row3">
+            <main class="hoc container clear"> 
+                <!-- main body -->
+                <form action="http://www.cursos-diseno.es/mi-mail.php" method="post">
+                    <div class="one_third first">
+                        <label for="nombre">Nombre <span>*</span></label>
+                        <input type="text" name="nombre" id="nombre" value="" size="22" required>
+                        <label for="apellidos">Apellidos <span>*</span></label>
+                        <input type="text" name="apellidos" id="apellidos" value="" size="22" required>
+                    </div>
+                    <div class="one_third">
+                        <label for="email">Email <span>*</span></label>
+                        <input type="email" name="email" id="email" value="" size="22" placeholder="correo@gmail.com" required>
+                        <label for="edad">Edad <span>*</span></label>
+                        <input type="number" name="edad" id="edad" value="" size="22" min="18" placeholder="(mínimo 18 años)" required>
+                    </div>
+
+
+                    <div class="one_third">
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" name="ciudad" id="ciudad" value="" size="22">
+                        <label for="codigo_postal">Código Postal</label>
+                        <input type="text" name="codigo_postal" id="codigo_postal" value="" size="22"></div>
+                    <div class="one_third first">
+                        <label for="telefono">Teléfono</label>
+                        <input type="text" name="telefono" id="telefono" value="" size="22">
+
+                    </div>
+                    <div class="block clear">
+                        <label for="comentarios">Escribe aquí tu comentario  <span>*</span></label>
+                        <textarea name="comentarios" id="comentarios" rows="10" required></textarea>
+                    </div>
+                    <input type="submit"  value="Enviar">
+                    &nbsp;
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="hidden" name="destinatario" value="floresclifman@gmail.com">
+                </form>
+                <!-- ################################################################################################ -->
+
+                <!-- ################################################################################################ -->
+                <!-- ################################################################################################ -->
+
+                <!-- ################################################################################################ -->
+                <!-- / main body -->
+                <div class="clear"></div>
+            </main>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row4 bgded overlay" style="background-image:url('../images/contacto/pie_mosaico.jpg');">
+            <footer id="footer" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+
+                <!-- ################################################################################################ -->
+            </footer>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <div class="wrapper row5">
+            <div id="copyright" class="hoc clear"> 
+                <!-- ################################################################################################ -->
+                <p class="fl_left one_quarter">Copyright &copy; 2020 - Todos los derechos reservados - </p>
+                <div class="one_half" id="mail_telf">
+                    <li><i class="fa fa-phone"></i> +34 (91) 678 78 90</li>
+                    <li><label><a href="mailto:tarantino_fans@gmail.com"><i class="fa fa-envelope-o"> tarantino_fans@gmail.com</i></a></label></li>
+                </div>
+                <p class="fl_right one_quarter">Diseñado por: Daniel Flores Pico</p>
+                <!-- ################################################################################################ -->
+            </div>
+        </div>
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <!-- ################################################################################################ -->
+        <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+        <!-- JAVASCRIPTS -->
+        <script src="../layout/scripts/jquery.min.js"></script>
+        <script src="../layout/scripts/jquery.backtotop.js"></script>
+        <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+    </body>
+</html>
